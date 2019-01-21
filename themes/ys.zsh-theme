@@ -30,7 +30,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN="$YS_VCS_PROMPT_CLEAN"
 # $
 
 PROMPT='
-%(#,%{$bg[yellow]%}%{$fg[black]%}%n%{$reset_color%},%{$fg[cyan]%}%n) \
+%(#,%{$bg[yellow]%}%{$fg[black]%}%{$reset_color%},%{$fg[cyan]%}%n) \
 %{$terminfo[bold]$fg[yellow]%}[$PWD]%{$reset_color%}\
  $(git_prompt_info) 
 %{$terminfo[bold]$fg[red]%}$ %{$reset_color%}'
